@@ -5,6 +5,26 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Buttons */
+.button-bg {
+  background-color: #289bde;
+}
+
+.course-gap {
+  max-width: 500px;
+}
+
+.course-img {
+  height: 22vh;
+}
+
+.course-paragraph {
+  height: 10vh;
+}
+
+.explore-bg {
+  background-color: #f4fafd;
+}
 /*---------
  Navbar
  ----------*/
@@ -23,4 +43,18 @@ footer a {
   text-decoration: none;
   color: white;
   font-weight: bolder;
+}
+
+/* ==================
+    Media-Query styles
+ =======================*/
+
+/*======= MOBILE========== */
+@media only screen and (max-width: 688px) {
+  .slider-paragraph {
+    font-size: 12px;
+  }
+  .slider-heading {
+    font-size: 15px;
+  }
 }
